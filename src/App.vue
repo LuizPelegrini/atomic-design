@@ -1,21 +1,17 @@
 <template>
   <div class="component">
-    <Container>
-      <Header />
-    </Container>
+    <Homepage />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import { Container } from '@/components/bosons';
-import { Header } from '@/components/organisms';
+import Homepage from '@/components/pages/Home.vue';
 
 export default defineComponent({
   components: {
-    Header,
-    Container
+    Homepage
   }
 });
 </script>
