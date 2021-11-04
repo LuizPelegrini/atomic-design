@@ -1,16 +1,19 @@
 <template>
   <div class="component">
-    <SocialNetworks />
+    <Service
+      title="Frontend"
+      description="jhsdhsj hjsh hjsd js djhs hhhh hjsdjs sj "
+    />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { SocialNetworks } from '@/components/molecules';
+import { Service } from '@/components/molecules';
 
 export default defineComponent({
   components: {
-    SocialNetworks
+    Service
   }
 });
 </script>
