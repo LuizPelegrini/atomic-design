@@ -1,25 +1,25 @@
 <template>
   <div class="component">
-    <Service
-      title="Frontend"
-      description="jhsdhsj hjsh hjsd js djhs hhhh hjsdjs sj "
-    />
+    <Header />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { Service } from '@/components/molecules';
+import { Header } from '@/components/organisms';
 
 export default defineComponent({
   components: {
-    Service
+    Header
   }
 });
 </script>
 
 <style lang="scss" scoped>
 .component {
-  width: 300px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 </style>
